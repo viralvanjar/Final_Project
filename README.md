@@ -115,9 +115,10 @@ I would like to thank [mention any people or resources you'd like to acknowledge
 
 ## Screenshots
 
-![Screenshot 1](screenshot.png)
+![Capture_1](https://github.com/viralvanjar/Final_Project/assets/128683245/4b458b96-7697-45c1-acd5-27ed4493430b)
 
-![Screenshot 2](screenshot.png)
+![Capture_2](https://github.com/viralvanjar/Final_Project/assets/128683245/fdac1fdc-5379-4469-a3a2-4e01126f77ee)
+
 
 ## Learn More
 
