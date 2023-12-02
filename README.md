@@ -111,7 +111,7 @@ If you'd like to contribute to this project, feel free to submit a pull request.
 
 ## Acknowledgments
 
-I would like to thank [mention any people or resources you'd like to acknowledge] for their support and inspiration.
+I would like to thank David J. Malan Sir, Doug Lloyd Sir, Brian Yu Sir and his team for their support and inspiration.
 
 ## Screenshots
 
