@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+.home{
+    min-height: 100vh;
+    display: flex;
+    color: var(--text-black-900);
+}
+.home .home-info{
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding-top: 100px;
+}
+.hello{
+    font-size: 28px;
+}
+.hello span{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+.my-profession{
+    font-size: 30px;
+}
+.typing{
+    color: var(--skin-color);
+}
+.home-info p{
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: var(--text-black-700);
+}
+.home .home-img{
+    flex: 0 0 40%;
+    height: 400px;
+    width: 400px;
+    padding: 0;
+    border-radius: 50%;
+    border: 10px solid var(--skin-color);
+    box-shadow: 0 0 30px var(--skin-color);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.home .home-img img{
+    margin: auto;
+    border-radius: 5px;
+    margin-left: -20px;
+    height: 400px;
+    width: 459px;
+}
+.name{
+    font-family:'Pacifico' , cursive;
+}

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    top: 0px;
+    background: var(--bg-black-900);
+    z-index: 2;
+}
+
+.navigtion {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    margin-top: 35px;
+    background: var(--skin-color);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 4;
+}
+
+.navigtion .nav-toggle {
+    height: 40px;
+    width: 45px;
+    border: 1px solid var(--bg-black-50);
+    cursor: pointer;
+    position: fixed;
+    right: 15px;
+    top: 50px;
+    border-radius: 5px;
+    background: var(--bg-black-100);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigtion .nav-toggle span {
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    display: inline-block;
+    position: relative;
+}
+
+.navigtion .nav-toggle span::before {
+    content: '';
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    position: absolute;
+    top: -6px;
+    left: 0;
+}
+
+.navigtion .nav-toggle span::after {
+    content: '';
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.about-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.navigtion ul {
+    display: flex;
+    width: 380px;
+}
+
+.navigtion ul .list {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+}
+
+.navigtion ul .list .page {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.navigtion ul .list .page .icon {
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.navigtion ul .list .page .service::before {
+    content: url('New folder/service.png');
+}
+
+.navigtion ul .list.active .page .service::before {
+    content: url('New folder/service 1.gif');
+}
+
+.navigtion ul .list.active .page .icon {
+    transform: translateY(-32px);
+}
+
+.navigtion ul .list .page .text {
+    position: absolute;
+    color: #000000;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: all 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.navigtion ul .list.active .page .text {
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.navigtion ul.open {
+    display: flex;
+}
+
+.indicator {
+    position: absolute;
+    top: -50%;
+    width: 70px;
+    height: 70px;
+    background: #ffff;
+    border-radius: 50%;
+    border: 6px solid var(--bg-black-900);
+    transition: all 0.5s;
+}
+
+.indicator::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -10px 0 0 var(--bg-black-900);
+}
+
+.indicator::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: 0px -10px 0 0 var(--bg-black-900);
+}
+
+.navigtion ul .list:nth-child(1).active~.indicator {
+    transform: translateX(calc(70px * 0));
+}
+
+.navigtion ul .list:nth-child(2).active~.indicator {
+    transform: translateX(calc(70px * 1));
+}
+
+.navigtion ul .list:nth-child(3).active~.indicator {
+    transform: translateX(calc(70px * 2));
+}
+
+.navigtion ul .list:nth-child(4).active~.indicator {
+    transform: translateX(calc(70px * 3));
+}
+
+.navigtion ul .list:nth-child(5).active~.indicator {
+    transform: translateX(calc(70px * 4));
+}
+
+.navigtion ul .list:nth-child(6).active~.indicator {
+    transform: translateX(calc(70px * 5));
+}
+
+.logo{
+    width: 190px;
+    height: 90px;
+    position: absolute;
+    top: -10px;
+    padding-left: 30px;
+    left: 0;
+}

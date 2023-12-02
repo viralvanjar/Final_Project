@@ -1,0 +1,105 @@
+.contact .container .row .section-title h2 {
+    font-size: 38px;
+}
+.contact-title{
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact-sub-title{
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.contact .contact-info-item{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contact .contact-info-item .icon{
+    display: inline-block;
+}
+.contact .contact-info-item .icon .fa{
+    font-size: 25px;
+    color: var(--skin-color);
+}
+.contact .contact-info-item h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+.contact .contact-info-item p{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-900);
+    font-weight: 400;
+}
+.contact .contact-form,
+.col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.contact .contact-form .form-itme{
+    margin-bottom: 30px;
+}
+.contact .contact-form .form-itme .form-control{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: var(--text-black-100);
+    padding: 10px 25px;
+    font-size:  16px;
+    color: var(--text-black-700);
+    transition: all 0.3s ease;
+}
+.contact .contact-form .form-itme .form-control:focus{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.50);
+}
+body.dark .contact .contact-form .form-itme .form-control:focus{
+    box-shadow: 0 0 20px var(--skin-color);
+}
+.contact .contact-form .form-itme textarea.form-control{
+    height: 140px;
+}
+.contact .contact-form .btn{
+    height: 50px;
+    padding: 0 50px;
+}
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div1{
+    width: 190px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--skin-color);
+    margin-bottom: 5px;
+}
+.div2{
+    width: 160px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--skin-color);
+    margin-bottom: 5px;
+}
+.div3{
+    width: 130px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--skin-color);
+    margin-bottom: 5px;
+}

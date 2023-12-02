@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+#feedback{
+    position: fixed;
+    margin-left: 25px;
+    margin-top: 130px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: #ffff;
+    border-radius: 40px;
+    display: inline-block;
+    z-index: 1;
+    white-space: nowrap;
+    background: var(--skin-color);
+    border-color: var(--skin-color);
+    transition: all 0.3s ease;
+  }
+  #feedback:hover{
+    transform: scale(1.05);
+  }
+  .login-from{
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-first-text{
+    font-family: 'Lobster', cursive;
+  }
+  .logo-text{
+    font-family:'Pacifico' , cursive;
+  }

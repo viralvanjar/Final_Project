@@ -1,0 +1,145 @@
+@media (max-width:1199px) {
+    .about .about-content .personal-info .info-item p span {
+        display: block;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:991px) {
+    .contact .contact-info-item {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .portfolio-item {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .home .home-img {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+
+    .about .about-content .personal-info,
+    .about .about-content .skills,
+    .services .service-item,
+    .contact .contact-form .col-6 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .contact .btns {
+        justify-content: center;
+        display: flex;
+    }
+
+    .jss1, .jss2{
+        top: 10% !important;
+        left: 10% !important;
+    }
+}
+
+@media (max-width:550px) {
+    .navigtion .nav-toggle {
+        display: flex;
+    }
+
+    .navigtion ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 450px;
+        animation: slideSection 1s ease;
+    }
+
+    @keyframes slideSection {
+        0% {
+            transform: translateY(-100%);
+        }
+
+        100% {
+            transform: translateY(-0%);
+        }
+    }
+
+    .navigtion ul .list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: var(--skin-color);
+    }
+
+    .navigtion ul .list .page {
+        width: 100%;
+    }
+
+    .navigtion ul .list .page .text {
+        font-weight: 400;
+        font-size: 2.5em;
+        opacity: 1;
+        margin-bottom: 40px;
+    }
+
+    .navigtion ul .list.active .page .text {
+        color: #ffff;
+    }
+
+    .navigtion ul .list .page .icon,
+    .indicator {
+        display: none;
+    }
+
+    .contact .contact-info-item {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .navigtion {
+        margin-top: 0;
+    }
+
+    .navigtion .nav-toggle {
+        position: fixed;
+        top: 15px;
+    }
+
+    #feedback{
+        margin-top: 85px !important;
+    }
+
+    .portfolio .portfolio-heading h3{
+        font-size: 47px !important;
+    }
+
+    .hello span{
+        font-size: 40px;
+    }
+
+    .style-switcher{
+        position: fixed;
+        right: 0;
+        top: 85px;
+    }
+
+    .about .about-content .personal-info .info-item{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .jss1, .jss2{
+        top: 5% !important;
+        left: 0% !important;
+        width: 100vw !important;
+    }
+}
